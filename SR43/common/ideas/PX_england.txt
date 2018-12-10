@@ -3,8 +3,6 @@ ideas = {
 country = {
 		
 		science_investisment = {
-
-			picture = jap_supremacy_of_technology
 			
 			allowed = {
 				always = no
@@ -12,7 +10,7 @@ country = {
 
 			removal_cost = -1
 
-			picture = technological_influence
+			picture = jap_supremacy_of_technology
 	
 			modifier = {
 				research_time_factor = -0.20

@@ -29,3 +29,19 @@ technology_sharing_group = {
     }
 
 }
+
+technology_sharing_group = {
+
+	id = uk_research_club
+	name = uk_research_club_name
+	desc = uk_research_club_desc
+	picture = GFX_idea_stiff_upper_lip
+    
+	research_sharing_per_country_bonus = 0.2
+	is_faction_sharing = yes
+
+    available = {
+        is_in_faction = yes
+    }
+
+}

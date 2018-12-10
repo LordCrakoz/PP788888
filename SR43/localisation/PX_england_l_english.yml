@@ -1,4 +1,6 @@
 ﻿l_english:
+ uk_research_club_name:0 "English Military Commonwealth"
+ uk_research_club_desc:0 "English Military Commonwealth"
   # EVENTS
  england.0.t:0 "Welcome to England !"
  england.0.d:0 "Ah, the United Kingdom. Well, they aren’t so united anymore. After the British exit from the European Union, the Unity of the Kingdom fell apart within a decade. Scotland, Northern Ireland, Gibraltar, the Malvinas, all of them gone. The remnants of the British Empire have deteriorated beyond repair. With the republican referendum succeeding in 2041, and the Welsh referendum for independence succeeding in 2052, and the Cornish referendum and general elections next year, Britain is in a turbulent time. The sun may have set on the British Empire, but will the sun set on the British Isles as well? The 2060 general election may be the most important election in English history."
@@ -51,6 +53,11 @@
  england.14.t:0 "Cozman&Co Renovation Plan"
  england.14.d:0 "The mighty businessman Therry Cozman has proposed last monday his plan to rebuild the country. Starting a gigantic urbanization plan, the country shall rise again."
  england.14.a:0 "Fantastic"
+ england.15.t:0 "England demands integration !"
+ england.15.d:0 "Shall we cede them our lands ?"
+ england.15.a:0 "Yes total subordination is preferable"
+ england.15.b:0 "We accept partial integration"
+ england.15.c:0 "Go to Hell ! Eire is our fatherland !"
   #IDEAS
  uk_democracy_state:0 "English Democracy"
  uk_liberals:0 "Libtard Englard"
@@ -62,6 +69,7 @@
   #DECISIONS
   support_benelux_unification:0 "Support Benelux Unification"
   benelux_unification:0 "Benelux Unification"
+  support_benelux_unification_desc:0 "It may not work the first time but we can make more and more pressure !"
   racial_measures:0 "..."
   racial_measures_desc:0 "Sir, have you the right to do that ?"
   uk_unification:0 "Start Negociations for the Unification of UK"

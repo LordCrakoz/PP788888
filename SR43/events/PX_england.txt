@@ -400,10 +400,10 @@ country_event = {
 		mean_time_to_happen = {
 		    days = 1
 	    }		
-        #option = { 
-		#    name = england.9.a
-		#    set_country_flag = "accepts unification"
-	    #}
+        option = { 
+		    name = england.9.a
+		    set_country_flag = "accepts unification"
+	    }
 	    option = { 
 		    name = england.9.b
 		    if = {
@@ -481,4 +481,66 @@ news_event = {
 		option = {
 			name = england.14.a
 		}
+}
+
+country_event = {
+	    id = england.15
+        title = england.15.t
+        desc = england.15.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }		
+        option = { 
+		    name = england.15.a
+		    ENG = {
+		    	annex_country = {
+    				target = IRE
+    				transfer_troops = yes
+				}
+			}
+	    }
+	    option = { 
+		    name = england.15.b
+		    ENG = {
+		    	puppet = IRE
+		    }
+	    }
+	    option = { 
+		    name = england.15.c
+		    ENG = {
+		    	create_wargoal = {
+    				type = puppet_wargoal_focus
+    				target = IRE
+				}
+				country_event = { id = england.16 hours = 2 }
+		    }
+	    }
+}
+country_event = {
+	    id = england.16
+        title = england.12.t
+        desc = england.12.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }		
+        option = { 
+		    name = england.12.a
+		    end_puppet = IRE
+		    IRE = {
+		    	leave_faction = yes
+		    }
+		    declare_war_on = {
+    			target = IRE
+    			type = annex_everything
+			}
+	    }
+	    option = { 
+		    name = england.12.b
+	    }
 }
