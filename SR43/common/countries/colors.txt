@@ -1,7 +1,7 @@
 #reload countrycolors
 
 GER = {
-	color = rgb { 0 19 127 }
+	color = rgb { 29 35 53 }
 	color_ui = rgb { 138 155 116 }
 }
 ENG = {
@@ -17,28 +17,28 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 64 74 153 }
+	color = rgb { 75 103 127 }
 	color_ui = rgb { 64 74 153 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
 	color_ui = rgb { 85 228 233 }
 }
-BEL = { color 	 = rgb { 193 171 8  }
+BEL = { color = rgb { 216 196 93  }
 		color_ui = rgb { 251 222 10 }
-	  }
-HOL = {	color = rgb { 203 138 74 }
+}
+HOL = {	color = rgb { 104  75  48 }
 		color_ui = rgb { 255 179 96 }
 }
-CZE = {	color = rgb { 54 167 156 }
+CZE = {	color = rgb { 37 114 107 }
 		color_ui = rgb { 70 217 203 }
 }
 POL = {
-	color = rgb { 153 36 52 }
+	color = rgb { 101 114 107 }
 	color_ui = rgb { 255 120 138 }
 }
 AUS = {
-	color = rgb { 194 198 215 }
+	color = rgb { 29 35 53 }
 	color_ui = rgb { 255 255 255 }
 }
 LIT = {
@@ -62,7 +62,7 @@ ITA = {
 	color_ui = rgb { 46 94 72 }
 }
 ROM = {
-	color = rgb { 145 168 97 }
+	color = rgb { 99 114 66 }
 	color_ui = rgb { 255 255 120 }
 }
 YUG = {
@@ -110,7 +110,7 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 135 68 54 }
+	color = rgb { 91 45 36 }
 	color_ui = rgb { 135 68 54 }
 }
 AFG = {
@@ -166,7 +166,7 @@ ELS = {
 	color_ui = rgb { 198 169 248 }
 }
 ETH = {
-	color = rgb { 152 130 191 }
+	color = rgb { 109 95 137 }
 	color_ui = rgb { 198 169 248 }
 }
 GUA = {
@@ -224,10 +224,6 @@ PRU = {
 SAF = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
-}
-SAU = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
 }
 SIA = {
 	color = rgb { 171 190 152 }
@@ -368,7 +364,7 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 0  80  230 }
+	color = rgb { 0  53  153 }
 	color_ui = rgb { 0  80  230 }	
 }
 
@@ -431,7 +427,7 @@ ANG = {
 }
 
 COG = {
-	color = rgb { 152 159 209 }
+	color = rgb { 117 117 135 }
 	color_ui = rgb { 152 159 209 }
 }
 MZB = {
@@ -439,7 +435,7 @@ MZB = {
 	color_ui = rgb { 112 62 90 }
 }
 KEN = {
-	color = rgb { 145 103 14 }
+	color = rgb { 173 121 17 }
 	color_ui = rgb { 145 103 14 }
 }
 ZIM = {
@@ -695,8 +691,8 @@ EQU = {
 	color_ui = rgb { 261  170  134 }
 }
 CYP = {
-	color = rgb { 10  290  210 }
-	color_ui = rgb { 10  290  210 }
+	color = rgb { 10  220  210 }
+	color_ui = rgb { 10  255  210 }
 }
 MAL = {
 	color = rgb { 0  200  0 }
@@ -811,7 +807,7 @@ CSA = {
      color_ui = rgb { 234 21 36 }
 }
 TRA = {
-     color = rgb { 195 95 20 }
+     color = rgb { 145 105 77 }
      color_ui = rgb { 195 95 20 }
 }	
 UTR = {
@@ -834,7 +830,18 @@ CFT = {
      color = rgb { 33  0  127 }
      color_ui = rgb { 33  0  127 }
 } 
-
+SCA = {
+     color = rgb { 155  186  204 }
+     color_ui = rgb { 33  0  127 }
+} 
+SRD = {
+     color = rgb { 107  27  27 }
+     color_ui = rgb { 107  27  27 }
+}
+SWS = {
+     color = rgb { 19  52  173 }
+     color_ui = rgb { 19  52  173 }
+}  
 #Russian Riots
 VOR = {
      color = rgb { 0  0  0 }

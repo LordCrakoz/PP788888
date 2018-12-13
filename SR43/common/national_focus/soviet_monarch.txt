@@ -1,5 +1,5 @@
 focus_tree = {
-	id = yugoslavia
+	id = soviet_monarch
 	country = {
 		factor = 0
 		modifier = {

@@ -128,7 +128,6 @@ MOR = "countries/Morocco.txt"
 NIG = "countries/Nigeria.txt"
 SOU = "countries/South Sudan.txt"
 SUD = "countries/Sudan.txt"
-SAH = "countries/Saharia.txt"
 ALG = "countries/Algeria.txt"
 TUN = "countries/Tunis.txt"
 SOM = "countries/Somali.txt"
@@ -168,8 +167,12 @@ WLN = "countries/Wallonia.txt"
 CSW = "countries/Kosovo.txt"
 CAT = "countries/Catalonia.txt"
 TRA = "countries/Transylvania.txt"
+###Saharian Nations###
+SAH = "countries/Saharia.txt"
+SRD = "countries/RedSahara.txt"
+SWS = "countries/BlueSahara.txt"
 
-####Autonomy States
+###Autonomy States###
 KAL = "countries/Kaliningrad.txt"
 RIG = "countries/Right Block.txt"
 REG = "countries/Regional Confederation.txt"
