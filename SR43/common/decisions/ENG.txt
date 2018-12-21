@@ -181,6 +181,61 @@ foreign_politics = {
 			133 = { add_core_of = ROOT }
 		}
 	}
+	uk_colony_back = {
+		allowed = { tag = ENG }
+		visible = {
+			has_country_flag = "Colonizer"
+		}
+		cost = 100
+		fire_only_once = yes
+
+		complete_effect = {
+			set_country_flag = "RULETHEWAVES"
+		}
+	}
+	uk_can_plan = {
+		allowed = { tag = ENG }
+		visible = {
+			has_country_flag = "RULETHEWAVES"
+		}
+		cost = 100
+		fire_only_once = yes
+
+		complete_effect = {
+			CAN = {
+				country_event = { id = england.17 hours = 2 }
+			}
+		}
+	}
+	uk_can_plan_s = {
+		allowed = { tag = ENG }
+		visible = {
+			has_country_flag = "Joint English Plan"
+		}
+		cost = 100
+		fire_only_once = yes
+
+		complete_effect = {
+			set_autonomy = {
+    			target = CAN
+    			autonomy_state = autonomy_free
+			}
+			CAN = {
+				leave_faction = yes
+				declare_war_on = {
+    				target = USA
+    				type = annex_everything
+				}
+			}
+			ENG = {
+				declare_war_on = {
+    				target = USA
+    				type = puppet_wargoal_focus
+				}
+				add_to_faction = CAN
+			}
+		}
+	}
 }
 form_united_kingdom_category = {
 

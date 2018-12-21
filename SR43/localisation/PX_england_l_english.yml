@@ -58,6 +58,12 @@
  england.15.a:0 "Yes total subordination is preferable"
  england.15.b:0 "We accept partial integration"
  england.15.c:0 "Go to Hell ! Eire is our fatherland !"
+ england.17.t:0 "English secret meeting"
+ england.17.d:0 "England wants us to join them in a war with the US."
+ england.17.a:0 "It's time to burn the Eagle"
+ england.17.b:0 "How dare they !"
+ england.18.t:0 "Canada refused !"
+ england.18.d:0 "We will show them"
   #IDEAS
  uk_democracy_state:0 "English Democracy"
  uk_liberals:0 "Libtard Englard"
@@ -76,6 +82,8 @@
   uk_unification_deal:0 "Uk Unite !"
   form_united_kingdom_category:0 "God Bless the King"
   form_united_kingdom:0 "British Islands Unification"
+  uk_colony_back:0 "Claim the World"
+  uk_can_plan:0 "Secret Canadian meeting"
   #OPMOD
  ENG_usa_friend:0 "Trade with the USA"
   # FOCUS

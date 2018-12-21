@@ -3078,7 +3078,11 @@ focus_tree = {
 		}
 		x = 6
 		y = 10
-
+		completion_reward = {
+			add_country_leader_trait = warmonger
+			add_country_leader_trait = camarilla_leader
+			add_political_power = 200
+		}
 	}
 	focus = {
 		id = uk_alliesus
@@ -3089,11 +3093,15 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = uk_warus
-			focus = uk_warus
 		}
 		x = 9
 		y = 11
-
+		completion_reward = {
+			give_guarantee = USA
+			USA = {
+				give_guarantee = ENG
+			}
+		}
 	}
 	focus = {
 		id = uk_warus
@@ -3108,7 +3116,10 @@ focus_tree = {
 		}
 		x = 11
 		y = 11
-
+		completion_reward = {
+			set_country_flag = "Colonizer"
+			unlock_decision_tooltip = uk_colony_back
+		}
 	}
 	focus = {
 		id = uk_warchina

@@ -544,3 +544,46 @@ country_event = {
 		    name = england.12.b
 	    }
 }
+country_event = {
+	    id = england.17
+        title = england.17.t
+        desc = england.17.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }		
+        option = { 
+		    name = england.17.a
+		    ENG = {
+		    	set_country_flag = "Joint English Plan"
+		    }
+	    }
+	    option = {
+		    name = england.17.b
+		    ENG = {
+		    	create_wargoal = {
+    				type = puppet_wargoal_focus
+    				target = CAN
+				}
+				country_event = {
+					id = england.18 hours = 1
+				}
+		    }
+	    }
+}
+country_event = {
+	    id = england.18
+        title = england.18.t
+        desc = england.18.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }		
+        option = { 
+		    name = england.17.b
+	    }
+}
